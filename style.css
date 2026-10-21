@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #292239;
+
+  background-color: #f7edf9;
+  background-image: linear-gradient(
+    135deg,
+    #e5f2fa,
+    #fff5fb,
+    #dcc4ee
+  );
+
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 540px;
+  margin: 80px auto 40px;
+  text-align: center;
+}
+
+.perfil__foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #927d9e;
+  object-fit: cover;
+}
+
+.perfil__nome {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.perfil__descricao {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #62576d;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu__lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__item {
+  margin-bottom: 16px;
+}
+
+.menu__link {
+  display: block;
+  padding: 18px;
+
+  background-color: #eee3f3;
+  border: 1px solid #a591b4;
+  border-radius: 8px;
+
+  color: #292239;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  background-color: #dcc8e9;
+}
+
+.redes-sociais {
+  margin-top: 30px;
+}
+
+.redes-sociais__link {
+  display: inline-block;
+  padding: 12px;
+  margin: 0 5px;
+
+  color: #65438c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.redes-sociais__link:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid #65438c;
+  outline-offset: 4px;
+}
+
+.rodape {
+  text-align: center;
+  font-size: 13px;
+  color: #62576d;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .perfil__nome {
+    font-size: 24px;
+  }
+
+  .perfil__descricao {
+    font-size: 15px;
+  }
+
+  .menu__link {
+    padding: 16px;
+  }
+}
+
+.sobre {
+  margin-top: 35px;
+  padding: 20px;
+  background-color: #f5edf8;
+  border: 1px solid #a591b4;
+  border-radius: 8px;
+}
+
+.sobre h2 {
+  margin-top: 0;
+}
+
+.sobre p {
+  text-align: left;
+  line-height: 1.7;
+}
+
+.projetos {
+  margin-top: 35px;
+}
+
+.projeto {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5edf8;
+  border: 1px solid #a591b4;
+  border-radius: 8px;
+}
+
+.projeto__imagem {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.projeto h3 {
+  margin-top: 20px;
+}
+
+.projeto p {
+  line-height: 1.6;
+}
+
+.projeto .menu__link {
+  margin-top: 20px;
+}
